@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+eval `cat env`
+exec docker run -it --rm albuild-google-drive-ocamlfuse:$version /bin/bash -l
